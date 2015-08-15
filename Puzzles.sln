@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multiples of 3 and 5", "Pro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Even Fibonacci numbers", "Project Euler\Even Fibonacci numbers\Even Fibonacci numbers.csproj", "{7E7C77B5-0185-4631-8FF9-5533C1D44DD6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Largest prime factor", "projecteuler\Largest prime factor\Largest prime factor.csproj", "{A9A43E44-4DD7-4FFA-9F33-769F4F2C23B5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Largest prime factor", "Project Euler\Largest prime factor\Largest prime factor.csproj", "{1590554B-6563-4A3D-B76D-CE7F74629307}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,10 +25,10 @@ Global
 		{7E7C77B5-0185-4631-8FF9-5533C1D44DD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E7C77B5-0185-4631-8FF9-5533C1D44DD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E7C77B5-0185-4631-8FF9-5533C1D44DD6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A9A43E44-4DD7-4FFA-9F33-769F4F2C23B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A9A43E44-4DD7-4FFA-9F33-769F4F2C23B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A9A43E44-4DD7-4FFA-9F33-769F4F2C23B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A9A43E44-4DD7-4FFA-9F33-769F4F2C23B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1590554B-6563-4A3D-B76D-CE7F74629307}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1590554B-6563-4A3D-B76D-CE7F74629307}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1590554B-6563-4A3D-B76D-CE7F74629307}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1590554B-6563-4A3D-B76D-CE7F74629307}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +36,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{F4C50DBD-681B-488A-9057-0CE3E7E3EB15} = {B7D4799E-1C2D-45C4-AB15-9EF1EB80869E}
 		{7E7C77B5-0185-4631-8FF9-5533C1D44DD6} = {B7D4799E-1C2D-45C4-AB15-9EF1EB80869E}
-		{A9A43E44-4DD7-4FFA-9F33-769F4F2C23B5} = {B7D4799E-1C2D-45C4-AB15-9EF1EB80869E}
+		{1590554B-6563-4A3D-B76D-CE7F74629307} = {B7D4799E-1C2D-45C4-AB15-9EF1EB80869E}
 	EndGlobalSection
 EndGlobal
