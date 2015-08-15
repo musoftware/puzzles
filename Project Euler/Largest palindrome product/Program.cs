@@ -26,15 +26,15 @@ namespace Largest_palindrome_product
             int res = 0;
 
             List<int> list = new List<int>();
-            for (int y = 999; y >= 100; y--)
+            for (int y = 99; y >= 10; y--)
             {
-                for (int x = y; x >= 100; x--)
+                for (int x = y; x >= 10; x--)
                 {
                     int i = y * x;
-                    if (ispalin(i))
+                    if ((i % 11 == 0))
                         if (i > res)
                         {
-                            res = i;
+                            if (ispalin(i)) res = i;
                         }
                         else
                         {
