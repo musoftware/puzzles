@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Puzzles")]
+[assembly: AssemblyTitle("Largest prime factor")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Puzzles")]
+[assembly: AssemblyProduct("Largest prime factor")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("aae548a2-846a-4c59-887a-c7896f476974")]
+[assembly: Guid("d2d23273-b2c5-4236-b228-80f0af1cd65a")]
 
 // Version information for an assembly consists of the following four values:
 //
