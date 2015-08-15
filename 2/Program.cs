@@ -13,7 +13,7 @@ namespace _2
             int b = 1;
             int t = 0;
             int res =0;
-            while (b < 4000000)
+            while (b < 4000000) 
             {
                 t = b; b += a; a = t;
                 if (t % 2 == 0)
