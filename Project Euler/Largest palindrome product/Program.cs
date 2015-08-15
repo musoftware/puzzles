@@ -13,17 +13,18 @@ namespace Largest_palindrome_product
             return rev == num.ToString();
         }
 
-        static int max(int[] input)
-        {
-            int res = 0;
-            foreach (int n in input)
-                res = Math.Max(res, n);
-            return res;
-        }
+        //static int max(int[] input)
+        //{
+        //    int res = 0;
+        //    foreach (int n in input)
+        //        res = Math.Max(res, n);
+        //    return res;
+        //}
 
         static void Main(string[] args)
         {
             int res = 0;
+
             List<int> list = new List<int>();
             for (int y = 999; y >= 100; y--)
             {
@@ -31,10 +32,16 @@ namespace Largest_palindrome_product
                 {
                     int i = y * x;
                     if (ispalin(i))
-                        list.Add(i);
+                        if (i > res)
+                        {
+                            res = i;
+                        }
+                        else
+                        {
+                            break;
+                        }
                 }
             }
-            res = max(list.ToArray());
             Console.WriteLine(res);
             Console.Read();
         }
